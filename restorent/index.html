@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Borcelle — Royal Fine Dining, Lucknow</title>
+  <meta name="description" content="Borcelle is Lucknow's premier royal fine-dining restaurant. Experience world-class cuisine, private events, and the pinnacle of hospitality since 2015.">
+  <meta name="keywords" content="luxury restaurant Lucknow, fine dining, royal restaurant, private dining, Borcelle">
+  <link rel="canonical" href="https://borcelle.com">
+  <meta property="og:title" content="Borcelle — Royal Fine Dining">
+  <meta property="og:description" content="Experience unmatched culinary artistry in the heart of Lucknow.">
+  <meta property="og:type" content="restaurant">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/luxury-dish.png">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Google Fonts — imported via CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========================================================
+       PRELOADER
+       ======================================================== -->
+  <div id="preloader">
+    <div class="pl-script">Borcelle</div>
+    <div class="pl-bar"><div class="pl-fill"></div></div>
+  </div>
+
+  <!-- ========================================================
+       NAVBAR
+       ======================================================== -->
+  <header id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo" aria-label="Borcelle Home">
+        <span class="nav-logo-script">Borcelle</span>
+        <span class="nav-logo-tag">Fine Dining</span>
+      </a>
+
+      <ul class="nav-links" role="navigation">
+        <li><a href="#hero" class="active">Home</a></li>
+        <li><a href="#about">Our Story</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#reservation" class="nav-cta">Reserve Now</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation -->
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+    <a href="#hero">Home</a>
+    <a href="#about">Our Story</a>
+    <a href="#menu">Menu</a>
+    <a href="#events">Events</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#reservation">Reserve</a>
+  </nav>
+
+  <!-- ========================================================
+       HERO
+       ======================================================== -->
+  <section id="hero" aria-label="Hero">
+    <div class="hero-bg" id="hero-bg" role="presentation"></div>
+    <div class="hero-overlay" role="presentation"></div>
+    <div class="hero-overlay-bottom" role="presentation"></div>
+
+    <div class="hero-content">
+      <span class="hero-eyebrow">Lucknow's Pinnacle of Gastronomy</span>
+      <h1 class="hero-title">
+        The Art of
+        <em>Royal Dining.</em>
+      </h1>
+      <p class="hero-tagline">Heritage. Craft. Excellence</p>
+      <div class="hero-actions">
+        <a href="#reservation" class="btn btn-gold" id="hero-reserve-btn">
+          <i class="fa-regular fa-calendar"></i> Book a Table
+        </a>
+        <a href="#menu" class="btn btn-ghost">
+          <i class="fa-solid fa-utensils"></i> Explore Menu
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-scroll" aria-hidden="true">
+      <div class="scroll-track"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       STATS BAR
+       ======================================================== -->
+  <section id="stats" aria-label="Key statistics">
+    <div class="container">
+      <div class="stats-row">
+        <div class="stat-block reveal">
+          <div class="stat-num" data-target="9" data-suffix="+">0</div>
+          <p class="stat-lbl">Years of Excellence</p>
+        </div>
+        <div class="stat-block reveal d1">
+          <div class="stat-num" data-target="15" data-suffix="">0</div>
+          <p class="stat-lbl">Master Chefs</p>
+        </div>
+        <div class="stat-block reveal d2">
+          <div class="stat-num" data-target="85" data-suffix="k+">0</div>
+          <p class="stat-lbl">Guests Served</p>
+        </div>
+        <div class="stat-block reveal d3">
+          <div class="stat-num" data-target="4.9" data-suffix="">0</div>
+          <p class="stat-lbl">Guest Rating</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       ABOUT
+       ======================================================== -->
+  <section id="about" class="section" aria-labelledby="about-title">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-img-wrap reveal-left">
+          <img src="images/about.png" alt="Borcelle restaurant interior — velvet booths and brass pendant lights" class="about-img-main" loading="lazy">
+          <div class="about-img-accent">
+            <span class="num">15</span>
+            <span class="lbl">Culinary<br>Awards</span>
+          </div>
+        </div>
+
+        <div class="reveal-right">
+          <span class="eyebrow">Est. 2015 — Lucknow</span>
+          <h2 id="about-title" class="display-title">A Legacy of <em>Taste &amp; Heritage</em></h2>
+          <div class="gold-ornament"><span></span><i class="fa-solid fa-diamond"></i><span></span></div>
+          <p class="body-text" style="max-width: 46ch;">
+            Born from a reverence for the grand kitchens of old Lucknow and inspired by the haute cuisine of contemporary Europe, Borcelle is a singular destination where time slows down and every detail is crafted with intention. Our culinary philosophy is simple: only the finest seasonal ingredients, treated with the highest artistry.
+          </p>
+          <p class="body-text" style="max-width: 46ch; margin-top: 1rem;">
+            Our dining rooms are stages. Each service, a performance. Every plate, a manifesto. We invite you not just to eat, but to experience something rare — a moment of genuine luxury in this world.
+          </p>
+
+          <div class="about-features">
+            <div class="about-feat reveal d1">
+              <div class="about-feat-icon"><i class="fa-solid fa-seedling"></i></div>
+              <div>
+                <p class="about-feat-title">Locally Sourced</p>
+                <p class="about-feat-desc">Seasonal ingredients from trusted farms.</p>
+              </div>
+            </div>
+            <div class="about-feat reveal d2">
+              <div class="about-feat-icon"><i class="fa-solid fa-award"></i></div>
+              <div>
+                <p class="about-feat-title">Award-Winning</p>
+                <p class="about-feat-desc">15 culinary awards since 2015.</p>
+              </div>
+            </div>
+            <div class="about-feat reveal d3">
+              <div class="about-feat-icon"><i class="fa-solid fa-wine-glass-empty"></i></div>
+              <div>
+                <p class="about-feat-title">Curated Wine Cellar</p>
+                <p class="about-feat-desc">Over 200 hand-selected labels.</p>
+              </div>
+            </div>
+            <div class="about-feat reveal d4">
+              <div class="about-feat-icon"><i class="fa-solid fa-lock"></i></div>
+              <div>
+                <p class="about-feat-title">Private Dining</p>
+                <p class="about-feat-desc">Exclusive rooms for special occasions.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       SIGNATURE DISHES
+       ======================================================== -->
+  <section id="signature" class="section" aria-labelledby="sig-title">
+    <div class="container">
+      <div class="sig-header reveal">
+        <span class="eyebrow" style="justify-content: center;">Culinary Masterpieces</span>
+        <h2 id="sig-title" class="display-title" style="text-align:center;">Signature <em>Creations</em></h2>
+      </div>
+
+      <div class="sig-grid">
+        <div class="sig-card reveal">
+          <img src="images/luxury-dish.png" alt="Wagyu Tenderloin with truffle" loading="lazy">
+          <div class="sig-overlay">
+            <span class="sig-tag">Chef's Signature</span>
+            <h3 class="sig-name">Wagyu Tenderloin Rossini</h3>
+            <span class="sig-price">$68</span>
+            <a href="#menu" class="sig-btn">View Details</a>
+          </div>
+        </div>
+        <div class="sig-card reveal d1">
+          <img src="images/luxury-pasta.png" alt="Truffle Tagliolini" loading="lazy">
+          <div class="sig-overlay">
+            <span class="sig-tag">Handcrafted Pasta</span>
+            <h3 class="sig-name">Truffle Tagliolini</h3>
+            <span class="sig-price">$34</span>
+            <a href="#menu" class="sig-btn">View Details</a>
+          </div>
+        </div>
+        <div class="sig-card reveal d2">
+          <img src="images/luxury-seafood.png" alt="Lobster Bisque Royale" loading="lazy">
+          <div class="sig-overlay">
+            <span class="sig-tag">From the Sea</span>
+            <h3 class="sig-name">Lobster Bisque Royale</h3>
+            <span class="sig-price">$52</span>
+            <a href="#menu" class="sig-btn">View Details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       WHY CHOOSE US
+       ======================================================== -->
+  <section id="why-us" class="section" aria-labelledby="why-title">
+    <div class="container">
+      <div class="why-header reveal">
+        <span class="eyebrow" style="justify-content: center;">Why Borcelle</span>
+        <h2 id="why-title" class="display-title" style="text-align: center;">The Borcelle <em>Difference</em></h2>
+      </div>
+
+      <div class="why-grid">
+        <div class="why-card reveal">
+          <div class="why-icon"><i class="fa-solid fa-crown"></i></div>
+          <h3 class="why-title">Royal Ambience</h3>
+          <p class="why-desc">An interior that blends Nawabi heritage with contemporary luxury — every corner designed to inspire awe.</p>
+        </div>
+        <div class="why-card reveal d1">
+          <div class="why-icon"><i class="fa-solid fa-star"></i></div>
+          <h3 class="why-title">Michelin Standard</h3>
+          <p class="why-desc">Our chefs have trained under Michelin-starred masters and bring that precision to every dish we serve.</p>
+        </div>
+        <div class="why-card reveal d2">
+          <div class="why-icon"><i class="fa-solid fa-seedling"></i></div>
+          <h3 class="why-title">Farm-to-Table</h3>
+          <p class="why-desc">We partner directly with the finest local and international farms for the freshest, most ethical ingredients.</p>
+        </div>
+        <div class="why-card reveal d3">
+          <div class="why-icon"><i class="fa-solid fa-music"></i></div>
+          <h3 class="why-title">Live Music Evenings</h3>
+          <p class="why-desc">Friday and Saturday evenings feature curated live jazz and classical Indian fusion performances.</p>
+        </div>
+        <div class="why-card reveal d4">
+          <div class="why-icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <h3 class="why-title">Unrivaled Privacy</h3>
+          <p class="why-desc">Our dedicated private suites offer complete discretion for those most important conversations and celebrations.</p>
+        </div>
+        <div class="why-card reveal d5">
+          <div class="why-icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
+          <h3 class="why-title">Bespoke Hospitality</h3>
+          <p class="why-desc">From personalized menus to custom floral arrangements — every visit is tailored exclusively for you.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       MENU  
+       ======================================================== -->
+  <section id="menu" class="section" aria-labelledby="menu-title">
+    <div class="container">
+      <div class="menu-header reveal">
+        <span class="eyebrow" style="justify-content: center;">The Borcelle Menu</span>
+        <h2 id="menu-title" class="display-title" style="text-align: center;">Cuisine of <em>Excellence</em></h2>
+      </div>
+
+      <div class="menu-tabs reveal d1">
+        <button class="tab-btn active" data-tab="starters"><i class="fa-solid fa-leaf"></i> Starters</button>
+        <button class="tab-btn" data-tab="mains"><i class="fa-solid fa-bowl-hot"></i> Main Course</button>
+        <button class="tab-btn" data-tab="desserts"><i class="fa-solid fa-ice-cream"></i> Desserts</button>
+        <button class="tab-btn" data-tab="drinks"><i class="fa-solid fa-champagne-glasses"></i> Beverages</button>
+      </div>
+
+      <div id="panel-starters"  class="menu-panel active"></div>
+      <div id="panel-mains"     class="menu-panel"></div>
+      <div id="panel-desserts"  class="menu-panel"></div>
+      <div id="panel-drinks"    class="menu-panel"></div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       GALLERY
+       ======================================================== -->
+  <section id="gallery" class="section" aria-labelledby="gallery-title">
+    <div class="container">
+      <div class="gallery-header reveal">
+        <span class="eyebrow" style="justify-content: center;">Visual Story</span>
+        <h2 id="gallery-title" class="display-title" style="text-align: center;">The <em>Gallery</em></h2>
+      </div>
+
+      <div class="gallery-masonry" id="gallery-grid">
+        <div class="g-item reveal">
+          <img src="images/royal-interior.png" alt="Royal dining room interior" loading="lazy">
+          <div class="g-item-overlay"><i class="fa-solid fa-expand"></i></div>
+        </div>
+        <div class="g-item reveal d1">
+          <img src="images/luxury-dish.png" alt="Wagyu Tenderloin" loading="lazy">
+          <div class="g-item-overlay"><i class="fa-solid fa-expand"></i></div>
+        </div>
+        <div class="g-item reveal d2">
+          <img src="images/private-events.png" alt="Private gala dining" loading="lazy">
+          <div class="g-item-overlay"><i class="fa-solid fa-expand"></i></div>
+        </div>
+        <div class="g-item reveal d3">
+          <img src="images/luxury-dessert.png" alt="Gold chocolate dome dessert" loading="lazy">
+          <div class="g-item-overlay"><i class="fa-solid fa-expand"></i></div>
+        </div>
+        <div class="g-item reveal d4">
+          <img src="images/luxury-pasta.png" alt="Truffle Tagliolini" loading="lazy">
+          <div class="g-item-overlay"><i class="fa-solid fa-expand"></i></div>
+        </div>
+        <div class="g-item reveal d5">
+          <img src="images/luxury-seafood.png" alt="Lobster Bisque Royale" loading="lazy">
+          <div class="g-item-overlay"><i class="fa-solid fa-expand"></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div id="lightbox" role="dialog" aria-modal="true" aria-label="Image lightbox">
+    <button class="lb-close" id="lb-close" aria-label="Close lightbox"><i class="fa-solid fa-xmark"></i></button>
+    <img src="" alt="" id="lb-img">
+  </div>
+
+  <!-- ========================================================
+       RESERVATION
+       ======================================================== -->
+  <section id="reservation" class="section" aria-labelledby="res-title">
+    <div class="container">
+      <div class="res-grid">
+        <div class="res-info reveal-left">
+          <span class="eyebrow">Dine With Us</span>
+          <h2 id="res-title" class="display-title">Reserve <em>Your Table</em></h2>
+          <div class="gold-ornament"><span></span><i class="fa-solid fa-diamond"></i><span></span></div>
+          <p class="body-text" style="margin-bottom: 2.5rem;">
+            We accept reservations for lunch, dinner, and exclusive private events. For groups of 10 or more, please contact us directly.
+          </p>
+
+          <div class="res-detail">
+            <div class="res-detail-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <p class="res-detail-label">Location</p>
+              <p class="res-detail-value">Lulu Mall, Shaheed Path<br>Lucknow, Uttar Pradesh 226010</p>
+            </div>
+          </div>
+          <div class="res-detail">
+            <div class="res-detail-icon"><i class="fa-solid fa-clock"></i></div>
+            <div>
+              <p class="res-detail-label">Hours</p>
+              <p class="res-detail-value">Lunch: 12:00 — 3:30pm<br>Dinner: 7:00 — 11:30pm</p>
+            </div>
+          </div>
+          <div class="res-detail">
+            <div class="res-detail-icon"><i class="fa-solid fa-phone"></i></div>
+            <div>
+              <p class="res-detail-label">Reservations</p>
+              <p class="res-detail-value">+91 999 999 9999</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="res-form-card reveal-right">
+          <form id="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="name">Full Name</label>
+                <input type="text" id="name" class="form-control" placeholder="Your name" required autocomplete="name">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="phone">Phone</label>
+                <input type="tel" id="phone" class="form-control" placeholder="+91 — — —" autocomplete="tel">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="email">Email Address</label>
+              <input type="email" id="email" class="form-control" placeholder="your@email.com" required autocomplete="email">
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="date">Date</label>
+                <input type="date" id="date" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="time">Time</label>
+                <select id="time" class="form-control" required>
+                  <option value="">Select time</option>
+                  <option>12:00 PM</option><option>12:30 PM</option>
+                  <option>1:00 PM</option><option>1:30 PM</option>
+                  <option>7:00 PM</option><option>7:30 PM</option>
+                  <option>8:00 PM</option><option>8:30 PM</option>
+                  <option>9:00 PM</option><option>9:30 PM</option>
+                  <option>10:00 PM</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="guests">Guests</label>
+                <select id="guests" class="form-control">
+                  <option>1 Guest</option><option>2 Guests</option>
+                  <option>3 Guests</option><option>4 Guests</option>
+                  <option>5 Guests</option><option>6 Guests</option>
+                  <option>Private Event (7+)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="occasion">Occasion</label>
+                <select id="occasion" class="form-control">
+                  <option>Dinner</option>
+                  <option>Anniversary</option>
+                  <option>Birthday</option>
+                  <option>Business Lunch</option>
+                  <option>Corporate Event</option>
+                  <option>Wedding Party</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="message">Special Requests</label>
+              <textarea id="message" class="form-control" rows="3" placeholder="Dietary requirements, allergies, special arrangements…"></textarea>
+            </div>
+            <button type="submit" class="btn btn-gold" style="width: 100%; justify-content: center; letter-spacing: 2px;">
+              Confirm Reservation &nbsp;<i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </form>
+          <div id="form-success" class="form-success-msg">
+            <div class="success-icon">🥂</div>
+            <h3>Reservation Received</h3>
+            <p>Your table is tentatively reserved. We will confirm within 2 hours.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       TESTIMONIALS
+       ======================================================== -->
+  <section id="testimonials" class="section" aria-labelledby="testi-title">
+    <div class="container">
+      <div class="testi-header reveal">
+        <span class="eyebrow" style="justify-content: center;">Guest Voices</span>
+        <h2 id="testi-title" class="display-title" style="text-align: center;">Words of <em>Our Patrons</em></h2>
+      </div>
+
+      <div class="testi-slider reveal d1">
+        <div class="testi-slide active">
+          <span class="testi-quote-mark">"</span>
+          <p class="testi-text">An unparalleled experience. The ambiance reminded me of dining in a Parisian palace. The Wagyu Rossini was transcendent — I have never tasted anything quite like it in all my years as a food writer.</p>
+          <div class="testi-author">
+            <img src="images/about.png" alt="Priya Sharma" class="testi-img" loading="lazy">
+            <div>
+              <p class="testi-name">Priya Sharma</p>
+              <p class="testi-role">Food & Travel Writer</p>
+              <p class="testi-stars">★★★★★</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-slide">
+          <span class="testi-quote-mark">"</span>
+          <p class="testi-text">I have hosted corporate dinners at the finest establishments in Mumbai and Delhi, but Borcelle is in a category of its own. The service is impeccable, the wine pairing exceptional, and the private dining rooms — breathtaking.</p>
+          <div class="testi-author">
+            <img src="images/luxury-interior.png" alt="Arjun Mehta" class="testi-img" loading="lazy">
+            <div>
+              <p class="testi-name">Arjun Mehta</p>
+              <p class="testi-role">CEO, Mehta Ventures</p>
+              <p class="testi-stars">★★★★★</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-slide">
+          <span class="testi-quote-mark">"</span>
+          <p class="testi-text">We celebrated our 25th anniversary here and the team went above and beyond. Custom floral arrangements, a personalized menu, and the most romantic atmosphere I have experienced in Lucknow. We will return every year.</p>
+          <div class="testi-author">
+            <img src="images/chef-selection.png" alt="Ananya & Raghav Gupta" class="testi-img" loading="lazy">
+            <div>
+              <p class="testi-name">Ananya & Raghav Gupta</p>
+              <p class="testi-role">Anniversary Guests</p>
+              <p class="testi-stars">★★★★★</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-dots">
+        <div class="t-dot active" data-slide="0"></div>
+        <div class="t-dot" data-slide="1"></div>
+        <div class="t-dot" data-slide="2"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       CHEF
+       ======================================================== -->
+  <section id="chef" class="section" aria-labelledby="chef-title">
+    <div class="container">
+      <div class="chef-header reveal">
+        <span class="eyebrow" style="justify-content: center;">The Artists</span>
+        <h2 id="chef-title" class="display-title" style="text-align: center;">Meet Our <em>Master Chefs</em></h2>
+      </div>
+
+      <div class="chef-grid">
+        <div class="chef-card reveal">
+          <img src="images/luxury-dish.png" alt="Executive Chef Rajan Malhotra" loading="lazy">
+          <div class="chef-info">
+            <p class="chef-name">Rajan Malhotra</p>
+            <p class="chef-role">Executive Chef & Co-founder</p>
+            <p class="chef-bio">Trained at Le Cordon Bleu Paris. 22 years of culinary mastery across three continents. Pioneer of Royal Fusion cuisine.</p>
+          </div>
+        </div>
+        <div class="chef-card reveal d2">
+          <img src="images/about.png" alt="Chef Priti Agrawal" loading="lazy">
+          <div class="chef-info">
+            <p class="chef-name">Priti Agrawal</p>
+            <p class="chef-role">Pastry Chef</p>
+            <p class="chef-bio">Former pastry chef at Claridge's London. Creator of our legendary gold chocolate dome dessert.</p>
+          </div>
+        </div>
+        <div class="chef-card reveal d4">
+          <img src="images/luxury-pasta.png" alt="Chef Marco Ferretti" loading="lazy">
+          <div class="chef-info">
+            <p class="chef-name">Marco Ferretti</p>
+            <p class="chef-role">Executive Sous Chef</p>
+            <p class="chef-bio">Italian-born maestro of handmade pasta and traditional sauces reimagined for the modern luxury palate.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       EVENTS
+       ======================================================== -->
+  <section id="events" class="section" aria-labelledby="events-title">
+    <div class="container">
+      <div class="events-header reveal">
+        <span class="eyebrow" style="justify-content: center;">Beyond Dining</span>
+        <h2 id="events-title" class="display-title" style="text-align: center;">Exclusive <em>Experiences</em></h2>
+      </div>
+
+      <div class="events-grid">
+        <div class="event-card reveal">
+          <img src="images/private-events.png" alt="Royal private dining event" loading="lazy">
+          <div class="event-overlay">
+            <p class="event-tag">Private Events</p>
+            <h3 class="event-title">Royal Gala Dinners</h3>
+            <p class="event-desc">Host up to 80 guests in our grand ballroom with custom menus, floral arrangements, and live entertainment.</p>
+            <a href="#reservation" class="event-cta">Plan Your Event →</a>
+          </div>
+        </div>
+        <div class="event-card reveal d2">
+          <img src="images/royal-interior.png" alt="Chef's table experience" loading="lazy">
+          <div class="event-overlay">
+            <p class="event-tag">Chef's Table</p>
+            <h3 class="event-title">The 7-Course Journey</h3>
+            <p class="event-desc">An intimate counter experience for 6 guests — watch the kitchen in action as our chef curates a bespoke tasting menu.</p>
+            <a href="#reservation" class="event-cta">Reserve →</a>
+          </div>
+        </div>
+        <div class="event-card reveal d4">
+          <img src="images/luxury-dessert.png" alt="Anniversary dinner celebration" loading="lazy">
+          <div class="event-overlay">
+            <p class="event-tag">Celebrations</p>
+            <h3 class="event-title">Anniversaries &amp; Birthdays</h3>
+            <p class="event-desc">Let us choreograph an evening of personalized luxury — custom cakes, floral suites, and bespoke menus.</p>
+            <a href="#reservation" class="event-cta">Make It Special →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       LOCATION
+       ======================================================== -->
+  <section id="location" class="section" aria-labelledby="loc-title">
+    <div class="container">
+      <div class="location-grid">
+        <div class="reveal-left">
+          <span class="eyebrow">Find Us</span>
+          <h2 id="loc-title" class="display-title">Visit Our <em>Kingdom</em></h2>
+          <div class="gold-ornament"><span></span><i class="fa-solid fa-diamond"></i><span></span></div>
+
+          <div class="loc-detail">
+            <div class="loc-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <p class="loc-label">Address</p>
+              <p class="loc-value">Level 3, Lulu Mall<br>Shaheed Path, Lucknow<br>Uttar Pradesh — 226 010</p>
+            </div>
+          </div>
+          <div class="loc-detail">
+            <div class="loc-icon"><i class="fa-solid fa-clock"></i></div>
+            <div>
+              <p class="loc-label">Opening Hours</p>
+              <p class="loc-value">Lunch: 12:00 — 3:30 PM<br>Dinner: 7:00 — 11:30 PM<br>Weekends till Midnight</p>
+            </div>
+          </div>
+          <div class="loc-detail">
+            <div class="loc-icon"><i class="fa-solid fa-phone"></i></div>
+            <div>
+              <p class="loc-label">Contact</p>
+              <p class="loc-value">+91 999 999 9999<br>hello@borcelle.com</p>
+            </div>
+          </div>
+          <div class="loc-detail">
+            <div class="loc-icon"><i class="fa-solid fa-car"></i></div>
+            <div>
+              <p class="loc-label">Parking</p>
+              <p class="loc-value">Valet parking available.<br>3000-space mall parking adjacent.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="location-map reveal-right">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3561.4682035255476!2d81.0116892!3d26.7932149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399be36e79261ed1%3A0xe13c6b8c9d92b95b!2sLulu%20Mall%2C%20Lucknow!5e0!3m2!1sen!2sin!4v1713000000000"
+            loading="lazy"
+            allowfullscreen=""
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Borcelle Restaurant location at Lulu Mall, Lucknow">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       INSTAGRAM STRIP
+       ======================================================== -->
+  <section id="instagram" class="section-sm" aria-labelledby="insta-title">
+    <div class="container">
+      <div class="insta-header reveal">
+        <span class="eyebrow" style="justify-content: center;">@borcellerestaurant</span>
+        <h2 id="insta-title" class="display-title" style="text-align: center;">Follow Our <em>Story</em></h2>
+      </div>
+      <div class="insta-strip">
+        <div class="insta-item reveal"><img src="images/luxury-dish.png"    alt="Instagram post" loading="lazy"><div class="insta-hover"><i class="fa-brands fa-instagram"></i></div></div>
+        <div class="insta-item reveal d1"><img src="images/luxury-dessert.png" alt="Instagram post" loading="lazy"><div class="insta-hover"><i class="fa-brands fa-instagram"></i></div></div>
+        <div class="insta-item reveal d2"><img src="images/royal-interior.png" alt="Instagram post" loading="lazy"><div class="insta-hover"><i class="fa-brands fa-instagram"></i></div></div>
+        <div class="insta-item reveal d3"><img src="images/luxury-pasta.png"   alt="Instagram post" loading="lazy"><div class="insta-hover"><i class="fa-brands fa-instagram"></i></div></div>
+        <div class="insta-item reveal d4"><img src="images/luxury-seafood.png" alt="Instagram post" loading="lazy"><div class="insta-hover"><i class="fa-brands fa-instagram"></i></div></div>
+        <div class="insta-item reveal d5"><img src="images/private-events.png" alt="Instagram post" loading="lazy"><div class="insta-hover"><i class="fa-brands fa-instagram"></i></div></div>
+      </div>
+      <div class="insta-cta reveal" style="margin-top:2.5rem;">
+        <a href="https://instagram.com" target="_blank" rel="noopener" class="btn btn-outline">
+          <i class="fa-brands fa-instagram"></i> Follow on Instagram
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       FOOTER
+       ======================================================== -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <span class="footer-logo-script">Borcelle</span>
+          <p class="footer-tagline">Royal fine dining since 2015. Where every moment is crafted for magnificence, and every dish tells the story of a thousand years of culinary heritage.</p>
+          <div class="footer-social">
+            <a href="#" class="social-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-btn" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social-btn" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" class="social-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="footer-heading">Navigation</h3>
+          <ul class="footer-links">
+            <li><a href="#about">Our Story</a></li>
+            <li><a href="#menu">The Menu</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#reservation">Reservations</a></li>
+            <li><a href="#location">Location</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer-heading">Service Hours</h3>
+          <ul class="footer-hours">
+            <li><strong>Lunch</strong><br>12:00 — 3:30 PM</li>
+            <li><strong>Dinner</strong><br>7:00 — 11:30 PM</li>
+            <li><strong>Weekends</strong><br>Open till Midnight</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer-heading">Join The Circle</h3>
+          <p style="font-size:0.8rem; color:var(--text-muted); margin-bottom:1rem; line-height:1.7;">Receive exclusive menus, curated events, and member-only early access to new experiences.</p>
+          <form id="newsletter-form">
+            <div class="newsletter-input">
+              <input type="email" placeholder="Your email address" required aria-label="Email for newsletter">
+              <button type="submit" aria-label="Subscribe"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2024 Borcelle Royal Restaurant. All Rights Reserved.</p>
+        <p class="footer-award"><i class="fa-solid fa-award"></i> Best Fine Dining, Lucknow — 2022 &amp; 2023</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================
+       CART SIDEBAR
+       ======================================================== -->
+  <div id="cart-overlay" class="cart-overlay" role="presentation"></div>
+
+  <aside id="cart-sidebar" role="complementary" aria-label="Shopping cart">
+    <div class="cart-header">
+      <h2 class="cart-title">
+        <i class="fa-solid fa-bag-shopping"></i>
+        Your Order
+        <span class="cart-count" id="cart-count-badge">0</span>
+      </h2>
+      <button class="cart-close" id="cart-close" aria-label="Close cart"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="cart-items" id="cart-items-list" role="list"></div>
+    <div class="cart-footer">
+      <div class="cart-row"><span>Subtotal</span><span id="cart-subtotal">$0.00</span></div>
+      <div class="cart-row"><span>Service Tax (8%)</span><span id="cart-tax">$0.00</span></div>
+      <div class="cart-grand-row">
+        <span class="cart-grand-label">Total</span>
+        <span class="cart-grand-val" id="cart-total">$0.00</span>
+      </div>
+      <button class="btn btn-gold" style="width:100%;justify-content:center;" onclick="placeOrder()">
+        <i class="fa-brands fa-whatsapp"></i> Order via WhatsApp
+      </button>
+    </div>
+  </aside>
+
+  <!-- ========================================================
+       FLOATING BUTTONS
+       ======================================================== -->
+  <button id="cart-btn" aria-label="Open cart">
+    <i class="fa-solid fa-bag-shopping"></i>
+    <span id="cart-btn-badge">0</span>
+  </button>
+
+  <a href="https://wa.me/+919999999999" target="_blank" rel="noopener" class="whatsapp-btn" aria-label="WhatsApp us">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <button id="back-to-top" aria-label="Back to top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <!-- Mobile Sticky Bar -->
+  <div class="sticky-cta-bar" role="navigation" aria-label="Mobile quick actions">
+    <a href="#reservation" class="sticky-cta-gold">Book Table</a>
+    <button class="sticky-cta-outline" onclick="openCart()">View Cart</button>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <!-- ========================================================
+       SCRIPTS
+       ======================================================== -->
+  <script src="js/main.js"></script>
+  <script src="js/menu.js"></script>
+  <!-- <script type="module" src="js/firebase.js"></script> -->
+
+</body>
+</html>
